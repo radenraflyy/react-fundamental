@@ -1,8 +1,10 @@
 // Component untuk GET API(Children)
 import React, { useEffect, useState } from "react"
 import Axios from "axios"
-import { Button, ButtonGroup, Carousel } from 'react-bootstrap'
-import Loaders from "../Utilities/Loaders"
+import { ButtonGroup, Carousel } from 'react-bootstrap'
+import Loaders from '../Utiliti/Loaders'
+
+
 
 const Collection = () => {
   const [datas, setDatas] = useState([])
